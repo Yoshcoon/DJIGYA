@@ -4,7 +4,7 @@ html
   padding:0;
   background: url(imageAsso/fond1.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: fixed;
 }
 #gang
 {
