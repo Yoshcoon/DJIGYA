@@ -1,0 +1,92 @@
+html 
+{ 
+  margin:0;
+  padding:0;
+  background: url(imageAsso/fond1.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#gang
+{
+	display: block;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(255,255,255,0.5);
+    padding-right: 40px;
+    padding-left: 40px;
+    z-index: 0;
+    max-width: 600px;
+}
+p
+{
+	text-align: justify;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+h1,h2
+{
+	text-align: center;
+	color: black;
+	font-size: 3em;
+    opacity: 0.7;
+	font-family: 'Oswald', sans-serif;
+}
+h1
+{
+	font-size: 3.5em;
+}
+.conteneur
+{ 
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    min-width: 10%;
+    max-width: 400px;
+    opacity: 0.7;
+}    
+#liens
+{
+
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    height: auto;
+    width: auto;    
+}
+.column
+{ 
+	margin: auto;
+	padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.column:hover
+{
+	background-color:rgba(180,180,180,0.5);
+	background-size: 400px;
+	transition: margin-top: 50px;
+}	
+a
+{ 
+	text-decoration: blink;
+	color: black;
+    font-style: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size:3.5vw;
+    opacity: 0.7; 
+}
+body
+{
+	margin: 0;
+}
+@media screen and (min-width: 700px)
+{
+a{
+    font-size: 1.5em;
+}
+}
+
+
