@@ -1,10 +1,10 @@
-html 
+body
 { 
   margin:0;
   padding:0;
   background: url(imageAsso/fond1.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
-  background-size: fixed;
+  background-size: cover;
 }
 #gang
 {
